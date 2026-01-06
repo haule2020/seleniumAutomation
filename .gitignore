@@ -1,0 +1,21 @@
+# Eclipse
+.metadata/
+# Ignore all files in the .metadata directory
+
+bin/
+# Ignore the output directory for compiled class files (Eclipse default is 'bin')
+
+*.class
+# Ignore generated class files anywhere in the project
+
+# Package Explorer .resource files
+.recommenders/
+
+# Local history
+.history/
+
+# Ignore the .externalToolBuilders directory
+.externalToolBuilders/
+
+# Ignore the .apt_generated directory
+.apt_generated/
