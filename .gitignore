@@ -19,3 +19,11 @@ bin/
 
 # Ignore the .apt_generated directory
 .apt_generated/
+
+target/
+
+test-output/
+
+.settings/
+
+.git/
