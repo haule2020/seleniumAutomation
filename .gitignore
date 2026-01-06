@@ -17,7 +17,7 @@ bin/
 # Ignore the .externalToolBuilders directory
 .externalToolBuilders/
 
-# Ignore the .apt_generated directory
+# Ignore the .apt_generated directorys
 .apt_generated/
 
 /target/
