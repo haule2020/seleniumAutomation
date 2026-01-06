@@ -20,10 +20,12 @@ bin/
 # Ignore the .apt_generated directory
 .apt_generated/
 
-target/
-
-test-output/
+/target/
 
 .settings/
-
+.project
 .git/
+.classpath
+/test-output/
+/surefire-reports/ 
+/screenshots/
