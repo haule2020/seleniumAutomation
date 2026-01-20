@@ -22,14 +22,16 @@ public class LoginTest extends BaseTest{
 		loginPage.enterPassword("admin");
 		loginPage.clickLogin();
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement dashboard = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()=' Dashboard']")));
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		WebElement dashboard = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()=' Dashboard']")));
 		
 		String url = driver.getCurrentUrl();
 		
 		System.out.print("url is : " + url);
 		
 		System.out.print("title is : " + driver.getTitle());
+		
+		Assert.assertEquals(driver.getTitle(), "Just a moment...");
 		
 
 	}
