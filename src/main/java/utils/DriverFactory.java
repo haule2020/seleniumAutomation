@@ -17,6 +17,7 @@ public class DriverFactory {
 //			options
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless=new");
+			options.addArguments("--lang=en-GB"); 
 			options.addArguments("window-size=1920x1080");
 			options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36");
 
