@@ -13,12 +13,12 @@ public class BaseTest {
 	@BeforeMethod
 	public void setUp() {
 		driver = DriverFactory.getChromeDriver();
-		driver.get("https://admin-demo.nopcommerce.com/login");	
+		driver.get("https://admin-demo.nopcommerce.com");	
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		DriverFactory.quitDriver();
+//		DriverFactory.quitDriver();
 	}
 		
 }
