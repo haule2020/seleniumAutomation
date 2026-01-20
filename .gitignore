@@ -1,24 +1,18 @@
 # Eclipse
-.metadata/
-# Ignore all files in the .metadata directory
+.classpath
+.project
+.settings/
+*.launch
 
-bin/
-# Ignore the output directory for compiled class files (Eclipse default is 'bin')
-
-*.class
-# Ignore generated class files anywhere in the project
-
-# Package Explorer .resource files
-.recommenders/
-
-# Local history
-.history/
-
-# Ignore the .externalToolBuilders directory
-.externalToolBuilders/
-
-# Ignore the .apt_generated directory
-.apt_generated/
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+builddirectory/
 
 /target/
 
@@ -26,6 +20,7 @@ bin/
 .project
 .git/
 .classpath
-/test-output/
-/surefire-reports/ 
-/screenshots/
+# Test output and logs
+test-output/
+surefire-reports/
+*.log
